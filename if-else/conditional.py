@@ -1,5 +1,5 @@
 import random
-num = int(input())
+num = random.uniform(-20, 20)
 def is_positive(num):
     if num > 0:
         return ('true')
@@ -27,3 +27,4 @@ def is_positive_or_even(num):
     else:
         return('false')
 print(is_positive_or_even(num))
+
